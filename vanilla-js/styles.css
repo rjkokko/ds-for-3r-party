@@ -1,0 +1,1087 @@
+@font-face {
+  font-family: 'KabelStd';
+  font-weight: 900;
+  src: url('https://assets.terveystalo.com/v13/fonts/KabelStd/KabelStd-Black.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/KabelStd/KabelStd-Black.woff') format('woff');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 900;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Black.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Black.woff') format('woff');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 900;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-BlackItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-BlackItalic.woff') format('woff');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 700;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Bold.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 700;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-BoldItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-BoldItalic.woff') format('woff');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 200;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-ExtraLight.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-ExtraLight.woff') format('woff');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 200;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-ExtraLightItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-ExtraLightItalic.woff') format('woff');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 400;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Italic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Italic.woff') format('woff');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 300;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Light.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Light.woff') format('woff');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 300;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-LightItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-LightItalic.woff') format('woff');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 500;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Medium.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Medium.woff') format('woff');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 500;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-MediumItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-MediumItalic.woff') format('woff');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 400;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Regular.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 600;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Semibold.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-Semibold.woff') format('woff');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'SourceSans3';
+  font-weight: 600;
+  src: url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-SemiboldItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/SourceSans3/SourceSans3-SemiboldItalic.woff') format('woff');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'TerveystaloSans';
+  font-weight: 700;
+  src: url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-Bold.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'TerveystaloSans';
+  font-weight: 700;
+  src: url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-BoldItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'TerveystaloSans';
+  font-weight: 300;
+  src: url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-Light.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-Light.ttf') format('truetype');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'TerveystaloSans';
+  font-weight: 300;
+  src: url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-LightItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'TerveystaloSans';
+  font-weight: 400;
+  src: url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-Regular.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'TerveystaloSans';
+  font-weight: 400;
+  src: url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-RegularItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-RegularItalic.ttf') format('truetype');
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'TerveystaloSans';
+  font-weight: 600;
+  src: url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-SemiBold.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'TerveystaloSans';
+  font-weight: 600;
+  src: url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-SemiBoldItalic.woff2') format('woff2'),
+    url('https://assets.terveystalo.com/v13/fonts/TerveystaloSans/TerveystaloSans-SemiBoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-display: block;
+}
+
+/*
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: currentColor; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+*/
+
+html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
+  font-family: TerveystaloSans,  sans-serif; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+
+/*
+Add the correct font size in all browsers.
+*/
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+
+h1,
+p {
+  margin: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+/*
+Set the default cursor for buttons.
+*/
+
+button {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 48em) {
+
+  .container-fluid {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
+@media (min-width: 64em) {
+
+  .container-fluid {
+    width: 83.33%;
+    padding-right: 2.208rem;
+    padding-left: 2.208rem;
+  }
+}
+
+@media (min-width: 90em) {
+
+  .container-fluid {
+    width: 66.67%;
+    padding-right: 1.917rem;
+    padding-left: 1.917rem;
+  }
+}
+
+@media (min-width: 120em) {
+
+  .container-fluid {
+    padding-right: 3.75rem;
+    padding-left: 3.75rem;
+  }
+}
+
+.text-style-body-m {
+  font-family: var(--core-font-m-family, TerveystaloSans, sans-serif);
+  font-size: var(--core-font-m-size, 1rem);
+  font-weight: var(--core-font-m-weight, 400);
+  line-height: var(--core-font-m-line-height, 1.5rem);
+  letter-spacing: var(--core-font-m-letter-spacing, 0.01em);
+  color: var(--core-color-content, #212322);
+}
+
+.text-style-title-xl {
+  font-family: var(--heading-font-xl-family, KabelStd, sans-serif);
+  font-size: var(--heading-font-xl-size, 2.5rem);
+  font-weight: var(--heading-font-xl-weight, 900);
+  line-height: var(--heading-font-xl-line-height, 2.875rem);
+  letter-spacing: var(--heading-font-xl-letter-spacing, -0.015em);
+  color: var(--heading-color-content, #0046AD);
+}
+
+.link {
+  cursor: pointer;
+  color: var(--cta-color-link-default-content, #0046AD);
+  text-decoration: underline;
+}
+
+.link:visited {
+  color: var(--cta-color-link-default-content, #0046AD);
+}
+
+.link:visited:hover, .link:visited:active {
+  color: var(--cta-color-link-default-content, #0046AD);
+}
+
+.link:hover, .link:active {
+  color: var(--cta-color-link-default-content, #0046AD);
+}
+
+.link:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.125rem var(--core-color-outline-positive-inner, #FFFFFF);
+}
+
+.link:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+.link:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 0.125rem var(--core-color-outline-positive-outer, #212322);
+}
+
+.button {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--core-border-xl-radius, 9999px);
+  -webkit-tap-highlight-color: transparent;
+  font-variant-ligatures: no-common-ligatures;
+  text-decoration: none;
+  text-align: center;
+  transform: perspective(1px) translateZ(0);
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button::before {
+  content: '';
+  border-radius: var(--core-border-xl-radius, 9999px);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: 50%;
+  transition: transform 0.15s ease-in-out;
+}
+
+.button:not(:disabled) {
+  cursor: pointer;
+}
+
+.button:not(:disabled):hover::before, .button:not(:disabled):active::before {
+  transform: scaleX(1);
+}
+
+.button {
+  padding: .6875rem 3.5rem .75rem;
+  border: 0.125rem solid;
+  font-family: var(--cta-font-family, TerveystaloSans, sans-serif);
+  font-weight: var(--cta-font-weight, 700);
+  letter-spacing: var(--cta-font-letter-spacing, 0.01em);
+  font-size: var(--cta-font-size, 1.3125rem);
+  line-height: var(--cta-font-line-height, 1.8125rem);
+}
+
+.button-primary {
+  background-color: var(--cta-color-primary-positive-default-background, #0046AD);
+  color: var(--cta-color-primary-positive-default-content, #FFFFFF);
+  border-color: var(--cta-color-primary-positive-default-border, #0046AD);
+}
+
+.button-primary::before {
+  background-color: var(--cta-color-primary-positive-highlight-background, #0063F6);
+}
+
+.button-primary:disabled {
+  border-color: var(--cta-color-primary-positive-muted-border, #6F6F6F);
+  background-color: var(--cta-color-primary-positive-muted-background, #6F6F6F);
+  color: var(--cta-color-primary-positive-muted-content, #FFFFFF);
+}
+
+.button-primary:not(:disabled):hover, .button-primary:not(:disabled):active {
+  color: var(--cta-color-primary-positive-highlight-content, #FFFFFF);
+  border-color: var(--cta-color-primary-positive-highlight-border, #0063F6);
+}
+
+.button-primary:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.125rem var(--core-color-outline-positive-inner, #FFFFFF), 0 0 0 0.25rem var(--core-color-outline-positive-outer, #212322);
+}
+
+.button-primary:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+.button-primary:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 0.125rem var(--core-color-outline-positive-inner, #FFFFFF), 0 0 0 0.25rem var(--core-color-outline-positive-outer, #212322);
+}
+
+@keyframes shine {
+
+  from {
+    background-position: 100% 0;
+  }
+
+  to {
+    background-position: -100% 0;
+  }
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+@keyframes bounce {
+
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@keyframes ping {
+
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+@keyframes bounce {
+
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@keyframes ping {
+
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@keyframes ping {
+
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@keyframes ping {
+
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 23.4375em) {
+
+  @keyframes bounce {
+
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+  }
+
+  @keyframes ping {
+
+    75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  @keyframes pulse {
+
+    50% {
+      opacity: .5;
+    }
+  }
+
+  @keyframes spin {
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@media (min-width: 48em) {
+
+  @keyframes bounce {
+
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+  }
+
+  @keyframes ping {
+
+    75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  @keyframes pulse {
+
+    50% {
+      opacity: .5;
+    }
+  }
+
+  @keyframes spin {
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@media (min-width: 64em) {
+
+  @keyframes bounce {
+
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+  }
+
+  @keyframes ping {
+
+    75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  @keyframes pulse {
+
+    50% {
+      opacity: .5;
+    }
+  }
+
+  @keyframes spin {
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@media (min-width: 90em) {
+
+  @keyframes bounce {
+
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+  }
+
+  @keyframes ping {
+
+    75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  @keyframes pulse {
+
+    50% {
+      opacity: .5;
+    }
+  }
+
+  @keyframes spin {
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@media (min-width: 120em) {
+
+  @keyframes bounce {
+
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+  }
+
+  @keyframes ping {
+
+    75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  @keyframes pulse {
+
+    50% {
+      opacity: .5;
+    }
+  }
+
+  @keyframes spin {
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

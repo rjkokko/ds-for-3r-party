@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "serve": "serve",
+    "build": "postcss ttds-tailwind-export.css -o styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
     "serve": "^14.2.3"
   }
 }
